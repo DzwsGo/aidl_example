@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 //      Ipc.sendMessage("main")
 
       val intent = Intent()
-      /**知道要跳转应用的包命与目标Activity */
+      /**知道要跳转应用的包命与目标Activity1 */
       val componentName = ComponentName("com.example.aidl_client", "com.example.aidl_client.TestActivity")
       intent.component = componentName
       startActivity(intent)
